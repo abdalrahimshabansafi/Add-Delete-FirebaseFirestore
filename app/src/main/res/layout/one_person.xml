@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/namePerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/bold"
+        android:text="AbdAlrahim"
+        android:drawablePadding="10dp"
+        android:textColor="#03A9F4"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:drawableStartCompat="@drawable/baseline_title_24" />
+
+    <TextView
+        android:id="@+id/locationPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/medium"
+        android:text="Gaza"
+        android:textSize="14sp"
+        app:drawableStartCompat="@drawable/baseline_place_24"
+        app:layout_constraintStart_toStartOf="@+id/namePerson"
+        app:layout_constraintTop_toBottomOf="@+id/namePerson" />
+
+    <TextView
+        android:id="@+id/numberPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/medium"
+        android:text="0567139918"
+        android:textSize="12sp"
+        app:drawableStartCompat="@drawable/baseline_phone_24"
+        app:layout_constraintStart_toStartOf="@+id/locationPerson"
+        app:layout_constraintTop_toBottomOf="@+id/locationPerson" />
+</androidx.constraintlayout.widget.ConstraintLayout>

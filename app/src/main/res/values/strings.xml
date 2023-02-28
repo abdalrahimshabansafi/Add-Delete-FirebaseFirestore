@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Information Form</string>
+    <string name="information_form">Information Form</string>
+    <string name="application_that_allows_the_user_to_add_his_contact_details_such_as_name_number_and_address">application that allows the user
+        to add his contact details such as Name,
+        Number, and address.</string>
+    <string name="title">Information Form</string>
+    <string name="name">Person Name</string>
+    <string name="number">Person Number</string>
+    <string name="address">Person Address</string>
+    <string name="info">Fill in the following fields according to the required data correctly</string>
+    <string name="save">Save The Information</string>
+    <string name="del">Delete This Information</string>
+    <string name="note">All Information</string>
+    <string name="dis">View all data located in the base</string>
+    <string name="add">Add Information</string>
+
+
+</resources>
